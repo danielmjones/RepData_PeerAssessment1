@@ -118,7 +118,7 @@ intervalmean[which.max(intervalmean$steps),]
 ## 104      835 206.1698
 ```
 
-The 5-minute interval that contains the maximum number fo steps is interval 835 with 206 steps.
+The 5-minute interval that contains the maximum number of steps is interval 835 with 206 steps.
 
 ##4. Imputing missing values
 
@@ -142,9 +142,9 @@ summary(activity)
 ##  NA's   :2304     (Other)   :15840
 ```
 
-The number of missing values in the activity dataset is ...
+The number of missing values in the activity dataset is 2304.
 
-2.Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.
+2. Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.
 
 The strategy that has been used to fill in the missing values is to take the mean 5 minute interval calculated previously and add it to the new data frame 'activitynew' where there are NA values.
 
